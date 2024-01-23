@@ -4,6 +4,14 @@ import './globals.css';
 export const metadata: Metadata = {
   title: 'Joram Talbot Portfolio',
   description: 'The works of Joram Talbot',
+  icons: {
+    icon: [
+      {
+        url: '/images/favicon.ico',
+        href: '/images/favicon.ico'
+      }
+    ]
+  }
 };
 
 export default function RootLayout({
