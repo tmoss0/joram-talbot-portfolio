@@ -3,5 +3,5 @@ export default function Digital() {
     <>
       <h1>Digital</h1>
     </>
-  )
-};
+  );
+}

@@ -3,5 +3,5 @@ export default function Motion() {
     <>
       <h1>Motion</h1>
     </>
-  )
-};
+  );
+}

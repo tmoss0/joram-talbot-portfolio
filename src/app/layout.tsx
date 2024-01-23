@@ -8,10 +8,10 @@ export const metadata: Metadata = {
     icon: [
       {
         url: '/images/favicon.ico',
-        href: '/images/favicon.ico'
-      }
-    ]
-  }
+        href: '/images/favicon.ico',
+      },
+    ],
+  },
 };
 
 export default function RootLayout({

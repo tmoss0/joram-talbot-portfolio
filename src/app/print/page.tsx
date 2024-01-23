@@ -3,5 +3,5 @@ export default function Print() {
     <>
       <h1>Print</h1>
     </>
-  )
-};
+  );
+}
