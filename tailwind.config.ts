@@ -10,6 +10,7 @@ const config: Config = {
     extend: {
       colors: {
         'dark-green': '#1A6843',
+        'yellow': '#FFD24D',
       },
     },
   },

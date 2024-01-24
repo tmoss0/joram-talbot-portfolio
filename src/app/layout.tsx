@@ -19,9 +19,10 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
+
   return (
     <html lang='en'>
-      <body className='mx-20 my-11 bg-dark-green'>
+      <body className='mx-20 my-11'>
         <nav className='flex flex-auto items-center gap-x-9'>
           <div className='rounded-xl border border-black'>
             <a href='/'>
