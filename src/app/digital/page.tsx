@@ -23,7 +23,7 @@ export default function Digital() {
       </div>
       <hr className='w-full border border-black' />
       <div className='my-8 flex flex-row justify-between gap-x-3 sm:my-16 sm:gap-x-5'>
-        <div className='flex w-full flex-wrap'>
+        <div className='flex w-full flex-wrap gap-x-3 sm:gap-x-5'>
           {/* First Column */}
           <div className='w-full flex-1'>
             <div>
@@ -84,7 +84,7 @@ export default function Digital() {
       </div>
       <hr className='w-full border border-black' />
       <div className='my-8 flex flex-row justify-between gap-x-3 sm:my-16 sm:gap-x-5'>
-        <div className='flex w-full flex-wrap'>
+        <div className='flex w-full flex-wrap gap-x-3 sm:gap-x-5'>
           {/* First Column */}
           <div className='w-full flex-1'>
             <div>
@@ -145,7 +145,7 @@ export default function Digital() {
       </div>
       <hr className='w-full border border-black' />
       <div className='my-8 flex flex-row justify-between gap-x-3 sm:my-16 sm:gap-x-5'>
-        <div className='flex-wraps flex w-full'>
+        <div className='flex w-full flex-wrap gap-x-3 sm:gap-x-5'>
           {/* First Column */}
           <div className='w-full flex-1'>
             <div>
