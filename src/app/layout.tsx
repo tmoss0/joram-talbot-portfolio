@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import './globals.css';
+import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Joram Talbot Portfolio',
@@ -19,10 +20,9 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
-
   return (
     <html lang='en'>
-      <body className='mx-20 my-11'>
+      <body className='mx-5 my-5 bg-dark-green md:container md:mx-auto md:my-11'>
         <nav className='flex flex-auto items-center gap-x-9'>
           <div className='rounded-xl border border-black'>
             <a href='/'>
@@ -31,13 +31,13 @@ export default function RootLayout({
           </div>
           <hr className='w-full border border-black' />
           <div className='flex justify-evenly gap-x-16'>
-            <a href='/print'>Print</a>
-            <a href='/motion'>Motion</a>
-            <a href='/digital'>Digital</a>
+            <Link href='/print'>Print</Link>
+            <Link href='/motion'>Motion</Link>
+            <Link href='/digital'>Digital</Link>
             <div className='rounded-xl border border-black'>
-              <a className='mx-2' href='/contact'>
+              <Link className='mx-2' href='/contact'>
                 Contact
-              </a>
+              </Link>
             </div>
           </div>
         </nav>
