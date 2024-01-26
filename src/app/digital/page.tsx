@@ -37,7 +37,9 @@ export default function Digital() {
           </div>
           {/* Second Column */}
           <div className='w-full flex-1'>
-            <h5 className={`${untitledSansFont.className}`}>
+            <h5
+              className={`${untitledSansFont.className} w-full text-lg md:w-[275px]`}
+            >
               Defining where Science intersects Innovation
             </h5>
           </div>
@@ -98,7 +100,9 @@ export default function Digital() {
           </div>
           {/* Second Column */}
           <div className='w-full flex-1'>
-            <h5 className={`${untitledSansFont.className}`}>
+            <h5
+              className={`${untitledSansFont.className} w-full text-lg md:w-[275px]`}
+            >
               Connecting the past, present, and future of the Porsche brand
             </h5>
           </div>
@@ -159,7 +163,9 @@ export default function Digital() {
           </div>
           {/* Second Column */}
           <div className='w-full flex-1'>
-            <h5 className={`${untitledSansFont.className}`}>
+            <h5
+              className={`${untitledSansFont.className} w-full text-lg md:w-[275px]`}
+            >
               Connecting the past, present, and future of the Porsche brand
             </h5>
           </div>
