@@ -28,7 +28,7 @@ export default function Digital() {
           <div className='w-full flex-1'>
             <div>
               <h4 className={`${untitledSansFont.className} text-xl`}>
-                Case Study No. 1:
+                Case Study <span className='break-keep'>No. 1:</span>
               </h4>
               <p className={`${tiemposTextItalicFont.className} text-xl`}>
                 Rebranding <span className='break-keep'>Bio-Techne</span>
@@ -91,7 +91,7 @@ export default function Digital() {
           <div className='w-full flex-1'>
             <div>
               <h4 className={`${untitledSansFont.className} text-xl`}>
-                Case Study No. 2:
+                Case Study <span className='break-keep'>No. 2:</span>
               </h4>
               <p className={`${tiemposTextItalicFont.className} text-xl`}>
                 Porsche Film Series
@@ -154,7 +154,7 @@ export default function Digital() {
           <div className='w-full flex-1'>
             <div>
               <h4 className={`${untitledSansFont.className} text-xl`}>
-                Case Study No. 3:
+                Case Study <span className='break-keep'>No. 3:</span>
               </h4>
               <p className={`${tiemposTextItalicFont.className} text-xl`}>
                 Mobil 1 TV Spot
