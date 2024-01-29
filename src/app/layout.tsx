@@ -25,9 +25,9 @@ export default function RootLayout({
       <body className='mx-5 my-5 bg-dark-green md:container md:mx-auto md:my-11'>
         <nav className='flex flex-auto items-center gap-x-9'>
           <div className='rounded-xl border border-black'>
-            <a href='/'>
+            <Link href='/'>
               <h1 className='mx-2 whitespace-nowrap'>Joram Talbot Design</h1>
-            </a>
+            </Link>
           </div>
           <hr className='w-full border border-black' />
           <div className='flex justify-evenly gap-x-16'>
