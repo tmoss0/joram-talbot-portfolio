@@ -26,7 +26,7 @@ export default function RootLayout({
         <nav className='flex flex-auto items-center gap-x-9'>
           <div className='rounded-xl border border-black'>
             <Link href='/'>
-              <h1 className='mx-2 whitespace-nowrap'>Joram Talbot Design</h1>
+              <p className='mx-2 whitespace-nowrap'>Joram Talbot Design</p>
             </Link>
           </div>
           <hr className='w-full border border-black' />
