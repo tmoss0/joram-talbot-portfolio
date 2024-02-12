@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import './globals.css';
 import Link from 'next/link';
+import BackgroundColorChanger from './components/BackgroundColorChanger';
 
 export const metadata: Metadata = {
   title: 'Joram Talbot Portfolio',
@@ -22,7 +23,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang='en'>
-      <body className='mx-5 my-5 bg-dark-green md:container md:mx-auto md:my-11'>
+      <body className='mx-5 my-5 md:container md:mx-auto md:my-11'>
+        <BackgroundColorChanger />
         <nav className='flex flex-auto items-center gap-x-9'>
           <div className='rounded-xl border border-black'>
             <Link href='/'>
