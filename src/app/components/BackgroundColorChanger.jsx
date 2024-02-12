@@ -19,4 +19,5 @@ export default function BackgroundColorChanger() {
       document.documentElement.style.backgroundColor = color;
     }
   }, [pathname]);
+  return null;
 }
